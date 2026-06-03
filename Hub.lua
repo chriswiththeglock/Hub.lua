@@ -5,7 +5,6 @@ local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
 local player = Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
-local camera = workspace.CurrentCamera
 
 local toggles = { speed = false, fly = false, aimbot = false }
 local espToggles = { box = false, tracer = false, skeleton = false }
